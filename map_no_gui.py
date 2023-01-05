@@ -54,14 +54,13 @@ def pool_handler():
 	print(end_time - start_time)
 
 
-if __name__ == '__main__':
-	speed_input = 'a'
-	while speed_input != 'fast' and speed_input != 'slow':
-		speed_input = input('Input program speed (fast) or (slow): ')
-	output_clean = 'b'
-	while output_clean != 'y' and output_clean != 'n':
-		output_clean = input('Delete all files in output directory(y) or (n)?')
-	
-	pool_handler()
+speed_input = 'a'
+while speed_input != 'fast' and speed_input != 'slow':
+	speed_input = input('Input program speed (fast) or (slow): ')
+output_clean = 'b'
+while output_clean != 'y' and output_clean != 'n':
+	output_clean = input('Delete all files in output directory(y) or (n)?')
+
+pool_handler()
 	
 
