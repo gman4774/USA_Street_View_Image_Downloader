@@ -6,6 +6,8 @@ A Python program that takes USA addresses in a CSV file and downloads the corres
 
 [Click Here for a more in-depth article on how this works](https://medium.com/@polish.greg/using-python-to-download-google-street-view-images-d63bcd5030e)
 
+[Sample test data pulled from Kaggle](https://www.kaggle.com/datasets/ahmedshahriarsakib/list-of-real-usa-addresses?resource=download)
+
 ## Requirements
 
 - Python 3
